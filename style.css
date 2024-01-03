@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.row{
+    width: 100%;
+
+}
+
+h1{
+    text-align: center;
+    padding: 30px 0 50px;
+    font-size: 50px;
+}
+
+.col-lg-4{
+    
+}
+
+#p1{
+    border: 2px solid black;
+    background-color: rgb(95, 71, 219);
+    padding: 15px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#p2{
+    border: 2px solid black;
+    background-color: rgb(95, 71, 219);
+    padding: 15px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#p3{
+    border: 2px solid black;
+    background-color: rgb(95, 71, 219);
+    padding: 15px;
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.Top{
+    border: 2px solid black;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    padding:5px 10px;
+    width: 150px;
+    float: right;
+    position: relative;
+    left: 17px;
+    bottom: 17px;
+}
+
+.Swatch1{
+    background-color: pink;
+    color: black;
+}
+
+.Swatch2{
+    background-color: rgb(213, 78, 78);
+    color: black;
+}
+
+.Swatch3{
+    background-color: green;
+    color: black;
+}
+
+div > p{
+    padding-top: 36px;
+    line-height: 22px;
+}
+
+
+/*Media Queries*/
+
+@media (max-width: 767px){
+    .col-sml-12{
+        float: left;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+   
+
+    .col-md-6{
+        float: left;
+        width: 50%;
+    } 
+
+    .col-md-12{
+        float: left;
+        width: 100%;
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 992px){
+    
+    .col-lg-4{
+        width: 33.33%;
+        float: left; 
+    }
+}
